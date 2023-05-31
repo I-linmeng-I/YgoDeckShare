@@ -10,15 +10,14 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
     </div>
+    <div>1263561651</div>
   </header>
-
-  <RouterView />
 </template>
+
+<script>
+
+</script>
 
 <style scoped>
 header {
